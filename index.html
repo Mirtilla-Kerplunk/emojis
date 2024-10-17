@@ -12,15 +12,15 @@
     }
 
     .e1{
-        background-image: url("e1.png");
+        background-image: url(e1.png);
     }
 
     .e2 {
-        background-image: url("e2.png");
+        background-image: url(e2.png);
     }
 
     .e3 {
-        background-image: url("e3.png");
+        background-image: url(e3.png);
     }
 
 </style>
@@ -44,7 +44,7 @@
         obj.removeAttribute("class");
     }
     function verificar(){
-        var obj = getElementById ("emoji");
+        var obj = document.getElementById ("emoji");
         if (obj.hasAttribute("class")){
             alert("Tem class");
         } else {
